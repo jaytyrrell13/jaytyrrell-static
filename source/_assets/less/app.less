@@ -1,0 +1,37 @@
+@import 'variables.less';
+@import 'helpers.less';
+@import 'layout.less';
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	color: @body-text-color;
+	font-family: @serif-font;
+	font-size: 2rem;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: @blue;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.headline, .headline h1 {
+    font-size: 3rem;
+    line-height: 1.5em;
+}
+
+.headline {
+    text-align: center;
+}
+
+@import 'header.less';
+@import 'footer.less';
